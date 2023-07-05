@@ -8,8 +8,11 @@ export default function App() {
   const [textval, setTextval] = useState('');
 
   const getHeight = (e) => {
+
     const userHeight = parseInt(e.target.value);
+
     setHt(userHeight);
+    
   };
 
   const getWeight = (e) => {

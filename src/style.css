@@ -6,7 +6,7 @@ p {
 
 .main_div{
   background-color: #150050;
-  max-height:fit-content ;
+  height: 100%;
   display: flex;
 }
 .left_section{
